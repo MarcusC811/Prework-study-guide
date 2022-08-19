@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prework Study Guide</title>
+    <link rel="stylesheet" href="./assets/style.css">
   </head>
+
   <body>
     <header id="top">
       <h1>Prework Study Guide</h1>
@@ -17,22 +19,31 @@
         <ul>
           <li>The head element contains information, or metadata, about the webpage that the user almost never see </li>
           <li>Metadata is used by the browser to render things. It is also helps with performance and search engine recognition</li>
-          <li>The < title > element is used for the title of the webpage and is very crutial for SEO (Search engine optimization)</li>
+          <li>The title element is used for the title of the webpage and is very crutial for SEO (Search engine optimization)</li>
           <li>The body element represents the visible content shown to the user</li>
           <li>All elements we want the user to interact with have to go in the body element</li>
           <li>!DOCTYPE tells the browser what language the code is written in and it must be declared at the top</li>
           <li>HTML attributes define more info about the element, example: "lang="en" would lets us know the page is in English</li>
           <li>Elements nested inside of other elements are known as child elements.</li>
           <li>Semantic HTML elements are elements that use words to clearly represent what the element contains in human language. It is best practice to use these when able because it makes the website accessible to more users like people who used screen readers for example</li>
-          <li>Non-semantic elements are used for structural issues that developers wants to solve such as < div > to create a division in the page</li>
-          <li>Make sure you close your tags off. Example < div >< /div ></li>
+          <li>Non-semantic elements are used for structural issues that developers wants to solve such as div to create a division in the page</li>
+          <li>Make sure you close your tags off. Example div /div </li>
         </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2> CSS </h2>
         <ul>
-          <li> CSS Notes go here </li>
+          <li> CSS is used by devs that define how website content is presented ti users (colors, aesthetics, visual layouts, etc). </li>
+          <li> Inline CSS tags are used to style specific HTML elements and they are really only used for more permanent changes, but they are less flexable than internal or external style sheets.</li>
+          <li> Internal style sheets contain rules in the head section of the HTML file and those rules only apply to that page. Example: using " style  h 1 color: red" will apply the color red to all h1 headings in that HTML file.</li>
+          <li> External style sheets are the most common way to style a web page because is seperates all CSS code that can be link to the HTML file with the simple  link tag (example doesn't show full function)</li>
+          <li> Margins in CSS indicates how space we want around the element itself, but padding indicates how spacing we want inside the element from the edge. </li>
+          <li> When we want all visual elements on the page to have a certain style we use the "*" at the beginning out our tag</li>
+          <li> You can also style multiple HTML elements by seperating with a common in our CSS file (example: header, footer {})</li>
+          <li> Do Not Repeat Yourself is a coding principle help reduce the overall size of the source code and complexity</li>
+          <li> Assigning colors can be done by using English like gray or can be done with numbers like 88888 to get a certain shade</li>
+          <li> </li>
         </ul>
       </section>
 
@@ -44,8 +55,15 @@
         <li>git checkout branch name: allows us to switch what branch we are in</li>
         <li>cd file: lets us choose what directory we are working in for our local PC</li>
         <li>git clone SSH key: allows us to clone our repo in out local environment to begin work</li>
-
+        <li>"touch" allows you to create a new file in directory via gitbash</li>
+        <ol> <h2 style="font-size: 25px;"> Git Flow </h2>
+          <li> git add -A </li>
+          <li> git commit -m "message" </li>
+          <li> git pull origin "main branch" </li>
+          <li> git push origin "the branch you are working in"</li>
+        </ol>
       </ul>
+      
     </section>
 
     <section class="card" id="javascript-section">
