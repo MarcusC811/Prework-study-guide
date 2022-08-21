@@ -73,14 +73,19 @@
       <h2> JavaScript </h2>
       <ul>
         <li> Semi colons are only needed if you are trying to seperate statements on a single line, howevere it is best practice to use them as often as possible </li>
-        <li> You can added "//" to comment on a certain line of code in JS or /* message */ as this tells the browser to ignore the message </li>
-        <li> a variable is a container to store data inside our code</li>
+        <li> You can add "//" to comment on a certain line of code in JS or /* message */ as this tells the browser to ignore the message </li>
+        <li> a variable is a container to store data inside our code "var x = 0;"</li>
         <li> strings have to be in quotations marks </li>
         <li> Control flow is the order in which the computer executes code, from top to bottom</li>
         <li> Conditional logic in JS is used to control the order in which code is executed, or if it is all. If the condition is falsy(0, -0, On, "", null, undefined, Nan) then that statement will be ignored and the computer will try to find a truthy statement and run that. </li>
+        <li> Running "if" statements in JS introduces decision making in our code. We can list multiple conditions in our "if" statement and the computer will go through each condition until it finds one that is truthy and it will proceed with that is between the curly brackets. Use "else if" for each condition and "else" if nothing is defined. </li>
         <li> An array is a single variable that is used to hold a group of data. Declaring an array is the same, but you just use "[x,x,x,x]" instead of the singular variable. </li>
-        <li> Array's can hold more than one type of data like strings, numbers, and Boolean value. Strings have to have quatations mark around them, numbers and Boolean values don't </li>
+        <li> Array's can hold more than one type of data like strings, numbers, and Boolean value. Strings have to have quatations mark around them, numbers and Boolean values don't. "var shapes = ["triangle", "square", "pentagon", "circle"];" The shapes listed would be considered a string (string of words) </li>
         <li> When an array has multiple data entries, they are each assigned an index according to the order in which it is stored in the array and the pattern is 0, 1, 2, 3... </li>
+        <li> console is a test environment that devs use to test code, the .log() will output whatever is inside is inside the () </li>
+        <li> when linking you JS script in HTML, it is best to link right before the body close ( /body ) </li>
+        <li> for loop: "for(var x = 0; x 'less than sign' shapes.length; x++) console.log(shapes[x]; ". Here our for loop is saying that x is equal to 0. When x is less than the length of the shapes array, add 1 to x. That way we get our loop to log each item in the array in one call. </li>
+        <li> functions need to be first defined and then called later on. I can write "function HelloWorld () { console.log('Hello Everyone!');}. Nothing will happen until I call that function later on. Example: HelloWorld();. " </li>
       </ul>
     </section>
   </main>
